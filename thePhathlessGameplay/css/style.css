@@ -1,0 +1,118 @@
+body{
+    font-family: sans-serif;
+    background-color: #fff;
+    align-content: center;
+    text-align: justify;
+}
+header {
+    height: 500px;
+    width: auto;
+    background-color: #010101;
+    margin: auto;
+}
+#headerBackground{
+    background-image: url("../imageFiles/the-pathless-2018127930484_4.jpg");
+    background-position: center;    
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: -25px 0 25px 5px black inset, 25px 0px 25px 5px black inset;
+    width: 1200px;
+    height: 500px;
+    margin:auto;
+}
+.screen{
+    position: relative; /* Sit on top of the page content */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    background-color: #00000088; /* Black background with opacity */
+}
+#headerText{
+    color: #fff;
+    text-align: center;
+    padding: 350px 0px 0px 0px;
+}
+#spam-header-featureArticle{
+    border-top: #0af solid 5px; 
+}
+
+article{
+    margin:auto;
+    width: 1000px;
+    align-content: center;
+}
+
+aside{
+    width:300px;
+    height: 100px;
+    margin: 20px;
+    float:right;
+}
+#asideGameCard{
+    margin: 10px;
+}
+#asideImg{
+    width:75px;
+}
+.twitter{
+    fill:#de004a;
+}
+.twitter:hover{
+    fill: #fe005a;
+}
+#video{
+    width: 700px;
+    margin: 20px auto;
+    padding:25px;
+    height: auto;
+    border-bottom: 1px solid #d90077;
+    align-content: center;
+}
+#video p{
+    text-align: center;
+}
+#video p em{
+    font-weight: bold;
+    font-style: normal;
+}
+#video video{
+    width: 700px;
+    height: auto;
+    margin:auto;
+}
+
+article figure img{
+    align-content: center;
+    width: 900px;
+    height: auto;
+    margin:auto;
+}
+p {
+    width:700px;
+
+    margin: 20px auto;
+}
+a{
+    color: #de004a;
+    text-decoration: none;
+}
+
+a:hover{
+    color:#fe005a;
+}
+
+figcaption{
+    color: #888;
+    text-align: center;
+    font-weight: lighter;
+    font-style: italic;
+    border-bottom: 1px solid #d90077
+}
+footer{
+    width:1000px;
+    margin:auto;
+    text-align: center;
+}
+.hashtags{
+    text-align: left;
+    
+}
