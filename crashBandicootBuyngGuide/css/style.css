@@ -1,83 +1,82 @@
-body{
+body {
     font-family: sans-serif;
     background-color: #fff;
     align-content: center;
     text-align: left;
 }
-.twitter{
+.twitter {
     fill:#de004a;
 }
-.twitter:hover{
+.twitter:hover {
     fill: #fe005a;
 }
-header{
+header {
     width: 1100px;
     margin: auto;
 }
-header p{
+header p {
     color: #aaa;
 }
-header h1{
+header h1 {
     font-size: 30pt;
     color: #111
 }
-header h2{
+header h2 {
     font-weight: 100;
     font-size:22pt;
 }
-header hr{
+header hr {
     border: 1px solid #ddd;
 }
-.credits{
+.credits {
     font-size: 11pt;
 }
-article{
+article {
     margin:auto;
     width: 600px;
 }
-p{
+p {
     margin: 20px auto;
 }
-#video{
+#video {
     width: 600px;
     margin: 20px auto;
     padding:25px auto;
     height: auto;
     align-content: center;
 }
-#video p{
+#video p {
     text-align: center;
     font-size: 110%;
 }
-#video p em{
+#video p em {
     font-weight: bold;
     font-style: normal;
 }
-#video video{
+#video video {
     width: 100%;
     height: auto;
     margin:auto;
 }
-
-#titleLink{
+#titleLink {
     color: #000;
     text-align: left;
     margin:auto;
 }
-.galleryBar{
+.galleryBar {
     border-top: 1px solid #aaa;
     border-bottom: 1px solid #aaa;
     padding: 5px 0px;
     margin: 5px 0px;
     width: 100%;
 }
-.galleryImg{
+.galleryImg {
     display: inline;
     max-width: 10%;
     height: auto;
     margin: 15px;
 }
-figcaption{
+figcaption {
     color: #888;
     text-align: center;
     font-weight: lighter;
@@ -89,18 +88,18 @@ article figure {
     height: auto;
     margin:auto;
 }
-#preorder figure img{
+#preorder figure img {
     width: 100%;
     height: auto;
     margin:auto;
 }
-#preorder h2{
+#preorder h2 {
     text-align: 120%;
     margin:auto;
     font-size: xx-large;
 
 }
-.preorderLink{
+.preorderLink {
     color: #fff;
     padding:10px;
     border-radius: 5px;
@@ -109,57 +108,56 @@ article figure {
     font-weight: bold;
     width: fit-content;
 }
-ul{
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
   }
-.preorderLink:hover{
+.preorderLink:hover {
     background-color: #fe005a;
 }
-a{
+a {
     color: #de004a;
     text-decoration: none;
 }
-
-a:hover, #titleLink:hover{
+a:hover, #titleLink:hover {
     color:#fe005a;
 }
 
-footer{
+footer {
     max-width: 600px;
     margin: auto;
 }
-.preorderGuidesLink{
+.preorderGuidesLink {
     margin: 10px auto;
 }
-summary{
+summary {
     font-weight: bold;
     color: #de004a;
     font-size: 11pt;
 }
-#gameCard{
+#gameCard {
     padding: 15px;
     border-top: 1px solid #aaa;
     border-bottom: 1px solid #aaa;
     margin:50px auto;
 }
-.gameTitle{
+.gameTitle {
     color: black;
     font-weight: bold;
 }
-.follow{
+.follow {
     font-weight: bold;
     color:#de004a;
     padding: 5px;
     border: 1px solid #de004a;
 }
-.smallText{
+.smallText {
     font-size: 11pt;
 }
-.superSmallText{
+.superSmallText {
     font-size: 7pt;
 }
-.italic{
+.italic {
     font-style: italic;
 }
