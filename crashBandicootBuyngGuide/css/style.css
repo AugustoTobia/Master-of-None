@@ -2,7 +2,7 @@ body{
     font-family: sans-serif;
     background-color: #fff;
     align-content: center;
-    text-align: justify;
+    text-align: left;
 }
 .twitter{
     fill:#de004a;
@@ -11,8 +11,11 @@ body{
     fill: #fe005a;
 }
 header{
-    width: 1000px;
+    width: 1100px;
     margin: auto;
+}
+header p{
+    color: #aaa;
 }
 header h1{
     font-size: 30pt;
@@ -23,17 +26,20 @@ header h2{
     font-size:22pt;
 }
 header hr{
-    border: 0.1px solid #ddd;
+    border: 1px solid #ddd;
+}
+.credits{
+    font-size: 11pt;
 }
 article{
     margin:auto;
-    width: 700px;
+    width: 600px;
 }
 p{
     margin: 20px auto;
 }
 #video{
-    width: 700px;
+    width: 600px;
     margin: 20px auto;
     padding:25px auto;
     height: auto;
@@ -55,9 +61,21 @@ p{
 
 #titleLink{
     color: #000;
-    font-size: ;
     text-align: left;
     margin:auto;
+}
+.galleryBar{
+    border-top: 1px solid #aaa;
+    border-bottom: 1px solid #aaa;
+    padding: 5px 0px;
+    margin: 5px 0px;
+    width: 100%;
+}
+.galleryImg{
+    display: inline;
+    max-width: 10%;
+    height: auto;
+    margin: 15px;
 }
 figcaption{
     color: #888;
@@ -91,6 +109,11 @@ article figure {
     font-weight: bold;
     width: fit-content;
 }
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
 .preorderLink:hover{
     background-color: #fe005a;
 }
@@ -101,4 +124,42 @@ a{
 
 a:hover, #titleLink:hover{
     color:#fe005a;
+}
+
+footer{
+    max-width: 600px;
+    margin: auto;
+}
+.preorderGuidesLink{
+    margin: 10px auto;
+}
+summary{
+    font-weight: bold;
+    color: #de004a;
+    font-size: 11pt;
+}
+#gameCard{
+    padding: 15px;
+    border-top: 1px solid #aaa;
+    border-bottom: 1px solid #aaa;
+    margin:50px auto;
+}
+.gameTitle{
+    color: black;
+    font-weight: bold;
+}
+.follow{
+    font-weight: bold;
+    color:#de004a;
+    padding: 5px;
+    border: 1px solid #de004a;
+}
+.smallText{
+    font-size: 11pt;
+}
+.superSmallText{
+    font-size: 7pt;
+}
+.italic{
+    font-style: italic;
 }
